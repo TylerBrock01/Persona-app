@@ -133,7 +133,7 @@ class Funcion:
                 print("\n\nRealmente pusiste ", self.opcion," de todas las opciones!?")
         except ValueError:
             print("\n\nIngresa valores enteros!!\n\n")
-            self.opciones
+            bucles.bucle_home()
     
     def salir(self):
         self.abandonar = int(input("\nDesea cancelar la operacion\n[1]==No\n[0]== Si: "))
