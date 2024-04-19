@@ -121,7 +121,7 @@ class Funcion:
     def opciones(self):
         try:
             print("##################\n#\tIngresa valores enteros\t#")
-            self.opcion = int(input("#[1]== Agregar persona\n#[2]== Modificar persoba\n#[3]== Eliminar persona\n#[4] salir\n\n#  Ingrese una opcion: "))
+            self.opcion = int(input("#[1]== Agregar persona\n#[2]== Modificar persona\n#[3]== Eliminar persona\n#[4] salir\n\n#  Ingrese una opcion: "))
         
             if self.opcion == 1:
                 bucles.bucle_agregar()
